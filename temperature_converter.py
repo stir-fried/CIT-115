@@ -12,6 +12,7 @@ def fnFahrenheitToCelsius():
     else:
         print(f'The Celsius equivalent is: {(5/9)*(fTemperature - 32):.1f}')
                
+#convert C to F
 def fnCelsiusToFahrenheit():
     if fTemperature > 100 :
         print('Temp can not be > 100')
@@ -25,6 +26,3 @@ elif cUnit == 'c' or cUnit == 'C':
     fnCelsiusToFahrenheit()
 else:
     print('You must enter a F or C')
-   
-
-   #sdjhfbjkada;fd
